@@ -38,7 +38,9 @@ public class Brand {
         this.status = status;
     }
 
+    // ${brand.id} => 會自動將【.】後面的字母變為大寫 => id 變 Id => 自動前面加上 get => getId()
     public Integer getId() {
+        System.out.println("getId()方法被調用了");
         return id;
     }
 

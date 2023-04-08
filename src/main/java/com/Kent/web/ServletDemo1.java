@@ -27,7 +27,7 @@ public class ServletDemo1 extends HttpServlet {
 
         // 3. 轉發到 el-demo.jsp
 //        req.getRequestDispatcher("/el-demo.jsp").forward(req,resp);
-        req.getRequestDispatcher("/jstl-if.jsp").forward(req,resp);
+        req.getRequestDispatcher("/jstl-foreach.jsp").forward(req,resp);
     }
 
     @Override
