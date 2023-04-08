@@ -8,6 +8,14 @@
 
     <%
         out.println("hello jsp~");
+        int i =3;
+    %>
+
+    <%="hello"%>
+    <%=i%>
+    <%!
+        void show(){}
+        String name = "Nancy";
     %>
 </body>
 </html>
